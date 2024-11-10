@@ -13,16 +13,11 @@ export default function Footer() {
             </div>
 
             <div className={styles.socialIcons}>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+                <a href="https://www.facebook.com/profile.php?id=100007323109465" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
                     <FaFacebook />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-                    <FaTwitter />
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-                    <FaInstagram />
-                </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+             
+                <a href="https://www.linkedin.com/in/nuzhat-saba-162581284/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
                     <FaLinkedin />
                 </a>
             </div>

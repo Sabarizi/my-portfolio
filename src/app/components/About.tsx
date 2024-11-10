@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Image from "next/image";
-import profile from '../../../public/profile.jpg';
 import styles from '../styles/About.module.css';
 
 
