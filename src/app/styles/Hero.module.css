@@ -1,0 +1,71 @@
+/* styles/Hero.module.css */
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background: linear-gradient(to bottom, #f0f4f8, #cfd9df); /* Soft gradient background */
+  min-height: 80vh;
+}
+
+/* Left-side content */
+.heroContent {
+  max-width: 50%;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.title2 {
+  font-size: 2.5rem;
+  color: #972929;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  
+  
+}
+
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Right-side image */
+.heroImage {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.heroImage img:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+}

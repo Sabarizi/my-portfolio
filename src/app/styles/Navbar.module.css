@@ -1,0 +1,55 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+}
+
+/* Logo section styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Navigation links container */
+.navLinks {
+  display: flex;
+  gap: 2rem; /* Space between each link */
+}
+
+/* Link styling */
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.navLink:hover {
+  color: #4CAF50; /* Change to your preferred hover color */
+  text-shadow: 0px 0px 5px rgba(76, 175, 80, 0.7);
+}
+.button {
+  display: flex;
+  background-color: aqua;
+
+
+}
+.button:hover {
+  background-color: #196d1d;
+}
